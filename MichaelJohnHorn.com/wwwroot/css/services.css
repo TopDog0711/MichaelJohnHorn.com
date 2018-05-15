@@ -1,0 +1,37 @@
+﻿.services {
+  display: flex;
+  flex-direction: column;
+}
+.services .service {
+  font-family: Arial;
+  display: flex;
+  margin-bottom: 20px;
+  border-bottom: 2px solid grey;
+}
+.services .service img {
+  width: 320px;
+  padding-bottom: 10px;
+}
+.services .service h1 {
+  margin-top: 0px;
+  font-weight: bold;
+  background-color: yellow;
+  padding: 5px;
+}
+.services .service .textBox {
+  flex: 1;
+  margin-left: 20px;
+}
+.services .service .textBox .primary h1 {
+  font-size: 25px;
+}
+.services .service .textBox .primary h2 {
+  font-size: 20px;
+}
+.services .service .textBox .secondary h1 {
+  background-color: white;
+  font-size: 20px;
+}
+.services .service .textBox .secondary h2 {
+  font-size: 15px;
+}
